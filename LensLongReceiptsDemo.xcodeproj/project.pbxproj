@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3374D438345B0FB44DDCA253 /* Pods_LensLongReceiptsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAFD7541FD15ED69FE94FE6 /* Pods_LensLongReceiptsDemo.framework */; };
 		9D53205127ECB28B0067CE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205027ECB28B0067CE79 /* AppDelegate.swift */; };
 		9D53205327ECB28B0067CE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205227ECB28B0067CE79 /* SceneDelegate.swift */; };
 		9D53205527ECB28B0067CE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205427ECB28B0067CE79 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CAFD7541FD15ED69FE94FE6 /* Pods_LensLongReceiptsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensLongReceiptsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D53204D27ECB28B0067CE79 /* LensLongReceiptsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensLongReceiptsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D53205027ECB28B0067CE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D53205227ECB28B0067CE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		9D53205927ECB28E0067CE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D53205C27ECB28E0067CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D53205E27ECB28E0067CE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE4E7BBA31B7982F0354AEC /* Pods-LensLongReceiptsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensLongReceiptsDemo.release.xcconfig"; path = "Target Support Files/Pods-LensLongReceiptsDemo/Pods-LensLongReceiptsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E784E9679AE468AA05D4797B /* Pods-LensLongReceiptsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensLongReceiptsDemo.debug.xcconfig"; path = "Target Support Files/Pods-LensLongReceiptsDemo/Pods-LensLongReceiptsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +35,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3374D438345B0FB44DDCA253 /* Pods_LensLongReceiptsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D8E3618BE83543903EFD7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CAFD7541FD15ED69FE94FE6 /* Pods_LensLongReceiptsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6694779A94753523D74DFA11 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				E784E9679AE468AA05D4797B /* Pods-LensLongReceiptsDemo.debug.xcconfig */,
+				9DE4E7BBA31B7982F0354AEC /* Pods-LensLongReceiptsDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -50,6 +65,7 @@
 				9D53204F27ECB28B0067CE79 /* LensLongReceiptsDemo */,
 				9D53204E27ECB28B0067CE79 /* Products */,
 				6694779A94753523D74DFA11 /* Pods */,
+				10D8E3618BE83543903EFD7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D53206127ECB28E0067CE79 /* Build configuration list for PBXNativeTarget "LensLongReceiptsDemo" */;
 			buildPhases = (
+				E04CA9A2CA9F32365375B2C7 /* [CP] Check Pods Manifest.lock */,
 				9D53204927ECB28B0067CE79 /* Sources */,
 				9D53204A27ECB28B0067CE79 /* Frameworks */,
 				9D53204B27ECB28B0067CE79 /* Resources */,
+				9D232E1128C07D9900774F9C /* Add env variables */,
+				519BE0B08F8C27A83F40FB45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +159,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		519BE0B08F8C27A83F40FB45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LensLongReceiptsDemo/Pods-LensLongReceiptsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LensLongReceiptsDemo/Pods-LensLongReceiptsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LensLongReceiptsDemo/Pods-LensLongReceiptsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D232E1128C07D9900774F9C /* Add env variables */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Add env variables";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nINFO_PLIST=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_CLIENT_ID string $VERYFI_CLIENT_ID\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_USERNAME string $VERYFI_USERNAME\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_API_KEY string $VERYFI_API_KEY\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_URL string $VERYFI_URL\" \"$INFO_PLIST\"\n";
+		};
+		E04CA9A2CA9F32365375B2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LensLongReceiptsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D53204927ECB28B0067CE79 /* Sources */ = {
@@ -292,6 +372,7 @@
 		};
 		9D53206227ECB28E0067CE79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E784E9679AE468AA05D4797B /* Pods-LensLongReceiptsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +402,7 @@
 		};
 		9D53206327ECB28E0067CE79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE4E7BBA31B7982F0354AEC /* Pods-LensLongReceiptsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
