@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3374D438345B0FB44DDCA253 /* Pods_LensLongReceiptsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAFD7541FD15ED69FE94FE6 /* Pods_LensLongReceiptsDemo.framework */; };
+		9D52660E28EFC2F6005F30D7 /* String+TitleCased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52660D28EFC2F6005F30D7 /* String+TitleCased.swift */; };
+		9D52661028EFC308005F30D7 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52660F28EFC308005F30D7 /* UIColor+Hex.swift */; };
+		9D52661328EFC31F005F30D7 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661228EFC31F005F30D7 /* Keys.swift */; };
+		9D52661528EFC32E005F30D7 /* VeryfiSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661428EFC32E005F30D7 /* VeryfiSwitch.swift */; };
+		9D52661728EFC42A005F30D7 /* LensSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661628EFC42A005F30D7 /* LensSettingsViewController.swift */; };
+		9D52661928EFC444005F30D7 /* LensSettingsViewController+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661828EFC444005F30D7 /* LensSettingsViewController+TableViewDataSource.swift */; };
+		9D52661B28EFC45E005F30D7 /* LensSettingsViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661A28EFC45E005F30D7 /* LensSettingsViewController+TableViewDelegate.swift */; };
+		9D52661D28EFC48C005F30D7 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661C28EFC48C005F30D7 /* LensSettingsViewController+ColorPickerDelegate.swift */; };
+		9D52662028EFC4CC005F30D7 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52661F28EFC4CC005F30D7 /* SwitchTableViewCell.swift */; };
+		9D52662228EFC4D9005F30D7 /* ValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52662128EFC4D9005F30D7 /* ValueTableViewCell.swift */; };
+		9D52662428EFC4E7005F30D7 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D52662328EFC4E7005F30D7 /* ColorTableViewCell.swift */; };
 		9D53205127ECB28B0067CE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205027ECB28B0067CE79 /* AppDelegate.swift */; };
 		9D53205327ECB28B0067CE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205227ECB28B0067CE79 /* SceneDelegate.swift */; };
-		9D53205527ECB28B0067CE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205427ECB28B0067CE79 /* ViewController.swift */; };
+		9D53205527ECB28B0067CE79 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53205427ECB28B0067CE79 /* LogsViewController.swift */; };
 		9D53205827ECB28B0067CE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53205627ECB28B0067CE79 /* Main.storyboard */; };
 		9D53205A27ECB28E0067CE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D53205927ECB28E0067CE79 /* Assets.xcassets */; };
 		9D53205D27ECB28E0067CE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53205B27ECB28E0067CE79 /* LaunchScreen.storyboard */; };
@@ -18,10 +29,21 @@
 
 /* Begin PBXFileReference section */
 		9CAFD7541FD15ED69FE94FE6 /* Pods_LensLongReceiptsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensLongReceiptsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D52660D28EFC2F6005F30D7 /* String+TitleCased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+TitleCased.swift"; sourceTree = "<group>"; };
+		9D52660F28EFC308005F30D7 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		9D52661228EFC31F005F30D7 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		9D52661428EFC32E005F30D7 /* VeryfiSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeryfiSwitch.swift; sourceTree = "<group>"; };
+		9D52661628EFC42A005F30D7 /* LensSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LensSettingsViewController.swift; sourceTree = "<group>"; };
+		9D52661828EFC444005F30D7 /* LensSettingsViewController+TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		9D52661A28EFC45E005F30D7 /* LensSettingsViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		9D52661C28EFC48C005F30D7 /* LensSettingsViewController+ColorPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LensSettingsViewController+ColorPickerDelegate.swift"; sourceTree = "<group>"; };
+		9D52661F28EFC4CC005F30D7 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		9D52662128EFC4D9005F30D7 /* ValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTableViewCell.swift; sourceTree = "<group>"; };
+		9D52662328EFC4E7005F30D7 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
 		9D53204D27ECB28B0067CE79 /* LensLongReceiptsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensLongReceiptsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D53205027ECB28B0067CE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D53205227ECB28B0067CE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D53205427ECB28B0067CE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D53205427ECB28B0067CE79 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
 		9D53205727ECB28B0067CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D53205927ECB28E0067CE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D53205C27ECB28E0067CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +81,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9D52660C28EFC2E2005F30D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D52660D28EFC2F6005F30D7 /* String+TitleCased.swift */,
+				9D52660F28EFC308005F30D7 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D52661128EFC318005F30D7 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				9D52661228EFC31F005F30D7 /* Keys.swift */,
+				9D52661428EFC32E005F30D7 /* VeryfiSwitch.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		9D52661E28EFC4BE005F30D7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9D52661F28EFC4CC005F30D7 /* SwitchTableViewCell.swift */,
+				9D52662128EFC4D9005F30D7 /* ValueTableViewCell.swift */,
+				9D52662328EFC4E7005F30D7 /* ColorTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		9D53204427ECB28B0067CE79 = {
 			isa = PBXGroup;
 			children = (
@@ -80,13 +130,20 @@
 		9D53204F27ECB28B0067CE79 /* LensLongReceiptsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9D52661E28EFC4BE005F30D7 /* Cells */,
+				9D52661128EFC318005F30D7 /* Keys */,
+				9D52660C28EFC2E2005F30D7 /* Extensions */,
 				9D53205027ECB28B0067CE79 /* AppDelegate.swift */,
 				9D53205227ECB28B0067CE79 /* SceneDelegate.swift */,
-				9D53205427ECB28B0067CE79 /* ViewController.swift */,
+				9D53205427ECB28B0067CE79 /* LogsViewController.swift */,
 				9D53205627ECB28B0067CE79 /* Main.storyboard */,
 				9D53205927ECB28E0067CE79 /* Assets.xcassets */,
 				9D53205B27ECB28E0067CE79 /* LaunchScreen.storyboard */,
 				9D53205E27ECB28E0067CE79 /* Info.plist */,
+				9D52661628EFC42A005F30D7 /* LensSettingsViewController.swift */,
+				9D52661828EFC444005F30D7 /* LensSettingsViewController+TableViewDataSource.swift */,
+				9D52661A28EFC45E005F30D7 /* LensSettingsViewController+TableViewDelegate.swift */,
+				9D52661C28EFC48C005F30D7 /* LensSettingsViewController+ColorPickerDelegate.swift */,
 			);
 			path = LensLongReceiptsDemo;
 			sourceTree = "<group>";
@@ -195,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nINFO_PLIST=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_CLIENT_ID string $VERYFI_CLIENT_ID\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_USERNAME string $VERYFI_USERNAME\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_API_KEY string $VERYFI_API_KEY\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_URL string $VERYFI_URL\" \"$INFO_PLIST\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ -f ./env-variables.sh ]\nthen\nsource ./env-variables.sh\nfi\nINFO_PLIST=\"$BUILT_PRODUCTS_DIR/$INFOPLIST_PATH\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_CLIENT_ID string $VERYFI_CLIENT_ID\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_USERNAME string $VERYFI_USERNAME\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_API_KEY string $VERYFI_API_KEY\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Add :VERYFI_URL string $VERYFI_URL\" \"$INFO_PLIST\"\n";
 		};
 		E04CA9A2CA9F32365375B2C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -226,9 +283,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D53205527ECB28B0067CE79 /* ViewController.swift in Sources */,
+				9D53205527ECB28B0067CE79 /* LogsViewController.swift in Sources */,
+				9D52662428EFC4E7005F30D7 /* ColorTableViewCell.swift in Sources */,
+				9D52661328EFC31F005F30D7 /* Keys.swift in Sources */,
+				9D52661B28EFC45E005F30D7 /* LensSettingsViewController+TableViewDelegate.swift in Sources */,
+				9D52661728EFC42A005F30D7 /* LensSettingsViewController.swift in Sources */,
 				9D53205127ECB28B0067CE79 /* AppDelegate.swift in Sources */,
+				9D52662028EFC4CC005F30D7 /* SwitchTableViewCell.swift in Sources */,
+				9D52661D28EFC48C005F30D7 /* LensSettingsViewController+ColorPickerDelegate.swift in Sources */,
+				9D52662228EFC4D9005F30D7 /* ValueTableViewCell.swift in Sources */,
+				9D52661528EFC32E005F30D7 /* VeryfiSwitch.swift in Sources */,
+				9D52660E28EFC2F6005F30D7 /* String+TitleCased.swift in Sources */,
 				9D53205327ECB28B0067CE79 /* SceneDelegate.swift in Sources */,
+				9D52661028EFC308005F30D7 /* UIColor+Hex.swift in Sources */,
+				9D52661928EFC444005F30D7 /* LensSettingsViewController+TableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
