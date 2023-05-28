@@ -8,6 +8,6 @@ target 'LensLongReceiptsDemo' do
   use_frameworks!
 
   # Pods for LensLongReceiptsDemo
-  pod 'VeryfiLens-LongReceipts', '2.1.3.2'
+  pod 'VeryfiLens-LongReceipts', '2.1.4.2'
 
 end
