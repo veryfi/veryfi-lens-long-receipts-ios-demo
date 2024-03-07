@@ -25,9 +25,10 @@ You can watch our video:
 ## Table of content
 1. [Veryfi Lens iOS Examples](#examples)
 2. [How to add Veryfi Lens to your project](#cocoapods)
-3. [How to run this project](#configuration)
-4. [Other platforms](#other_platforms)
-5. [Get in contact with our team](#contact)
+3. [Using SPM](#spm)
+4. [How to run this project](#configuration)
+5. [Other platforms](#other_platforms)
+6. [Get in contact with our team](#contact)
 
 ## Veryfi Lens Long Receipts & Invoices iOS Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Long Receipts & Invoices in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/ios/).
@@ -40,8 +41,20 @@ Install from our private [Cocoapods](https://hub.veryfi.com/api/settings/keys).
 
 Add in your project Podfile file the Veryfi Lens Long Receipts iOS SDK dependency:
 ```ruby
-pod 'VeryfiLens-LongReceipts', '2.0.11.1'
+pod 'VeryfiLens-LongReceipts', '2.1.33.4'
 ```
+
+## Using Swift package manager <a name="spm"></a>
+This project has setup by default cocoapods, so first remove cooadpods by:
+- Run `pod deintegrate`
+- Delete `Podfile`, `Podfile.lock` files and `Pods` folder if any
+- Delete `LensLongReceiptsDemo.xcworkspace` file
+- Then open the regular project file `LensLongReceiptsDemo.xcodeproj` and follow the instructions below...
+
+In Xcode go to File -> Add package dependencies and in the search field put the package url
+https://repo.veryfi.com/shared/lens/veryfi-lens-spm.git
+
+You'll be prompted to put Username and Password to download the package, you must use the same credentials (YOUR_USERNAME and YOUR_PASSWORD) created for cocoapods
 
 ## How to run this project <a name="configuration"></a>
 ### Optional: Git credentials tool
