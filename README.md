@@ -33,7 +33,8 @@ You can watch our video:
 ## Veryfi Lens Long Receipts & Invoices iOS Example <a name="example"></a>
 This is an example of how to use Veryfi Lens Long Receipts & Invoices in your app, you can find the developer documentation [here](https://app.veryfi.com/lens/docs/ios/).
 
-![long](https://user-images.githubusercontent.com/30441118/195659566-c2fd3122-2d28-4092-bea2-912bf966988c.gif)
+![long](https://github.com/veryfi/veryfi-lens-long-receipts-ios-demo/assets/2013102/5b519980-d838-45a3-89e5-9bb1b9fac872)
+
 
 ## How to add Veryfi Lens Long Receipts to your project <a name="cocoapods"></a>
 
