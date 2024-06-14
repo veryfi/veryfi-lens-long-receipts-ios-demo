@@ -42,7 +42,7 @@ Install from our private [Cocoapods](https://hub.veryfi.com/api/settings/keys).
 
 Add in your project Podfile file the Veryfi Lens Long Receipts iOS SDK dependency:
 ```ruby
-pod 'VeryfiLens-LongReceipts', '2.1.42.9'
+pod 'VeryfiLens-LongReceipts', '2.1.43.2'
 ```
 
 ## Using Swift package manager <a name="spm"></a>
