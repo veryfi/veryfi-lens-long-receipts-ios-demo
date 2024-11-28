@@ -9,6 +9,6 @@ target 'LensLongReceiptsDemo' do
 
   # Pods for LensLongReceiptsDemo
   
-  pod 'VeryfiLens-LongReceipts', '2.1.59.9'
+  pod 'VeryfiLens-LongReceipts', '2.1.60.10'
 
 end
